@@ -33,7 +33,7 @@ void display(NODE* head)
 
 int main()
 {
-	NODE** head=0;
+	NODE* head=0;
 	display(head);
 	for (int i = 0 ; i < 7; i++)
 	{
