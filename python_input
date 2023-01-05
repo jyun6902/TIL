@@ -1,0 +1,11 @@
+Python 입력받는 방식
+
+빠른 입출력: input()대신 sys.stdin.readline()을 사용
+import sys
+T = int (sys.stdin.readline().rstrip())
+a, b = map(int, sys.stdin.readline().split())
+
+
+f-string의 모양은 f와 {}만 알면 됩니다. 문자열 맨 앞에 f를 붙여주고, 중괄호 안에 직접 변수 이름이나 출력하고 싶은것을 바로 넣으면 됩니다.
+f'문자열 {변수} 문자열'
+print(f'Case #{i}: {a} + {b} = {a+b}')
